@@ -1,3 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Inter", sans-serif;
+    background: #111111;
+}
+
+h3{
+    color: #E6533C;
+    font-style: italic;
+}
+ 
+.select{
+    background-color: #E6533C;
+    align-items: center;
+    padding: 10px;
+    border-radius: 15px;
+    
+}
+
 h1{
-    color: brown;
+    color: aliceblue;
+    
+}
+p{
+color: rgba(255, 255, 255, 0.5);
+}
+.navbar{
+width: 90%;    
+margin: 5rem auto;
+border-radius: 1rem;
+display: flex;
+justify-content: space-between;
+}
+
+.pages{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.pages p{
+    color: aliceblue;
+}
+.banner{
+    width: 90%;
+    height: 90vp;    
+    margin: 5rem auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.banner-image{
+   width: 50%;
+}
+.banner-content{
+    width: 50%;
+}
+
+.btn1{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    background-color: #E6533C;
+    border-radius: 20px;
+    
+}
+.btn2{
+    color:white;
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 20px;
 }
